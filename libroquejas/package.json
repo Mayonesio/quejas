@@ -9,12 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "mongoose": "^8.4.4",
+    "mongoose": "^8.5.0",
     "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "dotenv": "^16.4.5",
     "eslint": "^8",
     "eslint-config-next": "14.2.4",
     "postcss": "^8",

@@ -1,4 +1,6 @@
 import { NextResponse } from "next/server";
+import {connectDB} from '@/utils/db';
+import Task from '@/models/Task';
 
 export function GET(request, { params }) {
   console.log(params);
